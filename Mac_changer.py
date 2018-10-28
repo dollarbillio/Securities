@@ -11,3 +11,5 @@ subprocess.call(["ifconfig", interface, 'down'])
 subprocess.call(["ifconfig", interface, 'hw', 'ether', new_MAC])
 subprocess.call(["ifconfig", interface, 'up'])
 subprocess.call(["ifconfig", interface])
+
+# Run MAC_changer.py on terminal
