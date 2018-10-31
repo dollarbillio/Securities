@@ -11,4 +11,4 @@ shutdown -a
 * ```arp -a```: Show Internet Address - Physical Address - Type
 * ```route print```: Show info about route (Network Destination, Netmask, Gateway, Interface, Metric
 * ```ipconfig/all```: Show Window IP Configurations
-
+* ```color --help```: Change color of cmd
