@@ -12,3 +12,6 @@ shutdown -a
 * ```route print```: Show info about route (Network Destination, Netmask, Gateway, Interface, Metric
 * ```ipconfig/all```: Show Window IP Configurations
 * ```color --help```: Change color of cmd
+* ```tasklist```: Show tasks being run
+* ```systeminfo```: Show all systems
+* ```doskey /history```: Show history keys used in Windows
