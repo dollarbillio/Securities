@@ -8,7 +8,6 @@ import optparse
 import re
 import sys
 
-
 # This function is weird
 def get_arguments():
     # Create an instance of class OptionParser
@@ -30,14 +29,12 @@ def get_arguments():
         # inputs.new_mac == value added after -m
         return inputs
 
-
 # Command to run on command_line
 def change_MAC(interface, new_MAC):
     subprocess.call(["ifconfig", interface, 'down'])
     subprocess.call(["ifconfig", interface, "hw", "ether", new_MAC])
     subprocess.call(["ifconfig", interface, "up"])
     # subprocess.call(["ifconfig", interface])
-
 
 def getcurrentMAC(interface):
     '''
@@ -55,7 +52,6 @@ def getcurrentMAC(interface):
     else:
         # if input an interface that does not have MAC_address
         return None
-
 
 # Method returns (a, tuple)
 inputs = get_arguments()
